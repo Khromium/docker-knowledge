@@ -2,7 +2,7 @@
 Docker file for knowledge
 
 - This is Dockerfile that can build a docker image of [Knowledge](https://github.com/support-project/knowledge).
-
+
 
 ## What's Knowledge
 - Free Knowledge Management System
@@ -16,10 +16,10 @@ Docker file for knowledge
 ## Get from Docker Hub
 
 ```
-docker pull koda/docker-knowledge
+docker pull khrom/docker-knowledge-arm64
 mkdir /home/hoge/knowledge
 chmod a+w /home/hoge/knowledge
-docker run -d -p 80:8080 -v /home/hoge/knowledge:/root/.knowledge --name knowledge koda/docker-knowledge
+docker run -d -p 80:8080 -v /home/hoge/knowledge:/root/.knowledge --name knowledge khrom/docker-knowledge-arm64
 ```
 
 
