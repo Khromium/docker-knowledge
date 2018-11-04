@@ -2,7 +2,7 @@
 FROM khrom/docker-tomcat-arm64
 
 # ==== add Knowledge ====
-ADD https://github.com/support-project/knowledge/releases/download/v1.12.0/knowledge.war \
+ADD https://github.com/support-project/knowledge/releases/download/v1.13.1/knowledge.war \
       /tomcat/webapps/ROOT.war
 
 VOLUME [ "/root/.knowledge" ]
